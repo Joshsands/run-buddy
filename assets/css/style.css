@@ -15,6 +15,9 @@ body {
   header {
       padding: 20px 35px;
       background-color: #39a6b2;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
 
   header h1 {
@@ -29,7 +32,6 @@ body {
       color: #fce138;
   }
   header nav {
-      float: right;
       margin: 7px 0;
   }
 
@@ -41,14 +43,6 @@ body {
       margin: 0 30px;
       font-weight: lighter;
       font-size: 22px;
-  }
-
-   /* Allows header to be inline with nav bar */
-  header h1 {
-      font-weight: bold;
-      font-size: 36px;
-      margin: 0;
-      display: inline;
   }
 
   footer {
